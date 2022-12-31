@@ -1,0 +1,76 @@
+/** Cascading Styling Sheet **/
+
+ /**Navigation panel Div**/
+
+ body{
+  background-color: #fff;
+ }
+  
+
+
+  /*Media query Start*/
+
+ @media only screen and (max-width: 800px) {
+    
+
+  table {
+    display:block;
+    width:100%;
+    padding:0;
+    margin:0 auto;
+}
+table td {
+    display:block;
+    float:left;
+    width:100%;
+}
+
+table th {
+    display:block;
+    float:left;
+    width:100%;
+}
+
+table tbody tr td{
+ word-wrap: break-word;max-width: 100% !important;
+}
+
+.navbar{
+  padding: 20px;
+ }
+
+ /*#newpudiv{
+  margin-bottom: 20px;
+ }*/
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  #ballot{
+    width: inherit;
+  }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width:800px){
+
+  footer{
+  position: unset !important; 
+}
+
+
+}
+
+@media only screen and (min-width: 280px)  {
+
+#newpudiv{
+  margin-bottom: 20px;
+ }
+
+
+}
+
+  
+
